@@ -1,2 +1,5 @@
-const elm = document.querySelector('.content');
-elm.innerHTML = '<h1>Hello world</h1>';
+import header from './header';
+import initialize from './initialize';
+
+initialize();
+header();
