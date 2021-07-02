@@ -204,13 +204,13 @@ ul li a {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 0.8rem;
-  transform: translateY(-100vh);
+  transform: translateY(-8vh);
   transition: var(--transition);
 }
 
 .dish-price {
   margin: 0;
-  transform: translateY(-100vh);
+  transform: translateY(-8vh);
   font-size: 1.4rem;
   transition: var(--transition);
   transition-delay: 0.1s;
