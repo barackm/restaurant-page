@@ -19,7 +19,6 @@ showContactLink.addEventListener('click', (e) => {
   initialize.removeEl('menu');
   initialize.removeEl('home');
   initialize.revealEl('contact');
-  //   initialize.updateUI(contactContainer());
 });
 
 showHomeLink.addEventListener('click', (e) => {
@@ -27,7 +26,6 @@ showHomeLink.addEventListener('click', (e) => {
   initialize.removeEl('contact');
   initialize.removeEl('menu');
   initialize.revealEl('home');
-  //   initialize.updateUI(homeContainer());
 });
 
 showMenuLink.addEventListener('click', (e) => {
@@ -35,5 +33,4 @@ showMenuLink.addEventListener('click', (e) => {
   initialize.removeEl('home');
   initialize.removeEl('contact');
   initialize.revealEl('menu');
-  //   initialize.updateUI(menuContainer());
 });
