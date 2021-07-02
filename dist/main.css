@@ -12,6 +12,7 @@ li {
 
 a {
   text-decoration: none;
+  cursor: pointer;
 }
 
 :root {
@@ -43,6 +44,10 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.d-none {
+  display: none !important;
 }
 
 .flex-between {
@@ -145,6 +150,7 @@ ul li a {
 
 .menu-page-container {
   min-height: 720px;
+  padding-top: 4rem;
 }
 
 .menu-page-container .header {
