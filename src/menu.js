@@ -56,6 +56,7 @@ const menuContainer = () => {
   subtitle.innerHTML = 'OUR DISHES';
   details.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud. Excepteur sint occaecat cupidatat non proident, sunt in culpa. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam!';
 
+  container.setAttribute('id', 'menu');
   header.appendChild(title);
   header.appendChild(subtitle);
   header.appendChild(details);

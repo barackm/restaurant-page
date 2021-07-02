@@ -27,6 +27,7 @@ const contactContainer = () => {
   messageInput.setAttribute('placeholder', 'Message');
   inputSubmit.setAttribute('type', 'submit');
   inputSubmit.setAttribute('class', 'contact-submit-btn');
+  container.setAttribute('id', 'contact');
 
   container.classList
     += 'contact-page-main-container flex-center flex-column d-none';

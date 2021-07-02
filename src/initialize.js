@@ -4,18 +4,20 @@ const initialize = (function () {
     mainContainer.appendChild(el);
   };
 
-  const removeEl = (el) => {
-    el.classList.add('d-none');
+  const removeEl = (id) => {
+    const element = document.getElementById(id);
+    element.style.display = 'none';
   };
 
-  const addEl = (el) => {
-    el.classList.remove('d-none');
+  const revealEl = (id) => {
+    const element = document.getElementById(id);
+    element.style.display = 'flex';
   };
 
   return {
     append,
     removeEl,
-    addEl,
+    revealEl,
   };
 }());
 

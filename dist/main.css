@@ -47,7 +47,7 @@ body {
 }
 
 .d-none {
-  display: none !important;
+  display: none;
 }
 
 .flex-between {
@@ -151,6 +151,7 @@ ul li a {
 .menu-page-container {
   min-height: 720px;
   padding-top: 4rem;
+  display: none;
 }
 
 .menu-page-container .header {
@@ -232,6 +233,11 @@ ul li a {
 
 .card-item-wrapper:hover > .card-overlay-wrapper .dish-price {
   transform: translateY(0);
+}
+
+.contact-page-main-container {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
 }
 
 .contact-page-main-container .header {
