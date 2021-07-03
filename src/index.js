@@ -9,8 +9,10 @@ initialize.append(header());
 const showHomeLink = document.querySelector('.home-link');
 const showMenuLink = document.querySelector('.menu-link');
 const showContactLink = document.querySelector('.contact-link');
+const showHome2 = document.querySelector('.header-home-link');
 
 initialize.append(homeContainer());
+const showMenu2 = document.querySelector('.home-menu-link');
 initialize.append(menuContainer());
 initialize.append(contactContainer());
 
@@ -28,7 +30,21 @@ showHomeLink.addEventListener('click', (e) => {
   initialize.revealEl('home');
 });
 
+showHome2.addEventListener('click', (e) => {
+  e.preventDefault();
+  initialize.removeEl('contact');
+  initialize.removeEl('menu');
+  initialize.revealEl('home');
+});
+
 showMenuLink.addEventListener('click', (e) => {
+  e.preventDefault();
+  initialize.removeEl('home');
+  initialize.removeEl('contact');
+  initialize.revealEl('menu');
+});
+
+showMenu2.addEventListener('click', (e) => {
   e.preventDefault();
   initialize.removeEl('home');
   initialize.removeEl('contact');

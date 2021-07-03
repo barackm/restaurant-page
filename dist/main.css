@@ -85,7 +85,7 @@ ul li a {
 
 .home-container {
   width: 100%;
-  min-height: 720px;
+  min-height: 100vh;
   background-image: url('https://cdn.pixabay.com/photo/2016/11/18/14/05/brick-wall-1834784_960_720.jpg');
   background-size: cover;
   background-position: center;

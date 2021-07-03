@@ -4,10 +4,10 @@ const homeContainer = () => {
   const content = document.createElement('div');
   const btn = document.createElement('a');
 
-  btn.setAttribute('class', 'home-menu-btn');
   btn.setAttribute('href', '#');
   container.setAttribute('id', 'home');
 
+  btn.classList += 'home-menu-btn home-menu-link';
   container.classList += 'home-container flex-center';
   overlay.classList += 'home-overlay';
   content.classList += 'home-hero-container text-center';
